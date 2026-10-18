@@ -1,0 +1,33 @@
+.body {
+      margin: 0;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .header {
+      background-color: blue;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 50px;
+    }
+    .logo {
+      width: 100px;
+    }
+    .header-links a {
+      color: white;
+      padding: 5px 15px;
+      text-decoration: none;
+      border-radius: 15px;
+    }
+    .header-links a:hover {
+      background-color: #4e4eff;
+    }
+    .header-links button {
+      background-color: #ff7676;
+      padding: 5px 15px;
+      border-radius: 15px;
+      color: white;
+      border: none;
+    }
+    .header-links button:hover {
+      background-color: #6124fa;
+    }
